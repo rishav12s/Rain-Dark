@@ -14,11 +14,11 @@
 
 ## Installation
 ```sh
-Hyde theme patch "Rain Dark" https://github.com/rishav12s/Rain-Dark
+Hyde theme import "Rain Dark" https://github.com/rishav12s/Rain-Dark
 ```
 or 
 ```sh
-Hyde theme patch
+Hyde theme import
 ```
 and choose Rain Dark
 
