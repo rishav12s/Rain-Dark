@@ -1,7 +1,17 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Rain-Dark'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Rain-Dark'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+$GTK_THEME = Rain-Dark
+$ICON_THEME = Rain-Dark
+$COLOR_SCHEME=prefer-dark
+$CURSOR_THEME = Bibata-Modern-Ice
+$CURSOR_SIZE=20
+$CODE_THEME=Tokyo Night Storm
+
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
+exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
+exec = Hyde cursor theme '$CURSOR_THEME' size $CURSOR_SIZE
+exec = Hyde code theme '$CODE_THEME'
 
 general {
     gaps_in = 3
