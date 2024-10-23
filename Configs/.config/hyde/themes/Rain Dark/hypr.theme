@@ -3,7 +3,7 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 $GTK_THEME = Rain-Dark
 $ICON_THEME = Rain-Dark
 $COLOR_SCHEME=prefer-dark
-$CURSOR_THEME = Bibata-Modern-Ice
+$CURSOR_THEME = Capitaine-Cursors-Tokyonight
 $CURSOR_SIZE=20
 $CODE_THEME=Tokyo Night Storm
 
